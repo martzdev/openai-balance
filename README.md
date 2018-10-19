@@ -23,12 +23,14 @@ Good model for OpenAI's cart pole environment
     - softmax output
     
 - Getting results:
-  - Run 100 episodes and get the average score for all (*in my case* I got an almost doubled test score - 148)
+  - Run 100 episodes and get the average score for all (*in my case* I got a doubled test score comparing it to the exploration score - 191.91)
   
 ## The saved model
+- After training and testing is done, the script will automatically save the model structure and weights
 - The saved model in the 'model' folder gets the following metrics:
-  - 148.62 average score after training
-  - 61.09% accuracy for the training set on 12 epochs
+  - 191.91 average score after training
+  - 61.35% accuracy for the training set on 12 epochs
+  - Performs 2.19 times better than in the exploration phase
   
 ![alt text](https://i.imgur.com/koDA96d.gif)
 ### Happy balancing :)
